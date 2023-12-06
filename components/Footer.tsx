@@ -3,7 +3,7 @@ import React from "react";
 import icon from "@/public/linkedIn.svg";
 import Image from "next/image";
 
-const navItems = ['Process', 'Work', 'FAQs', 'Webflow', 'Blog', 'Contact'];
+const navItems = ['Home', 'Process', 'Work', 'FAQs', 'Webflow', 'Privacy'];
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
               navItems.map((item, index) => {
                 return <>
                   <Link href={'#'}>
-                    <li key={item} className='text-white/75 hover:text-white duration-200'>
+                    <li key={item} className='uppercase text-white/75 hover:text-white duration-200'>
                       {item}
                     </li>
                   </Link> 
