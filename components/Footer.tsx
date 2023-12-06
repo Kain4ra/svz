@@ -14,8 +14,8 @@ const Footer = () => {
             {
               navItems.map((item, index) => {
                 return <>
-                  <Link href={'#'}>
-                    <li key={item} className='uppercase text-white/75 hover:text-white duration-200'>
+                  <Link href={`#${item.toLowerCase()}`} key={`${item}-${index}`}>
+                    <li className='uppercase text-white/75 hover:text-white duration-200'>
                       {item}
                     </li>
                   </Link> 

@@ -11,8 +11,8 @@ const Nav = () => {
       <ul className='flex items-center'>
         {
           navItems.map((item, index) => {
-            return <Link href={'#'}>
-              <li key={item} className={`relative ${index === navItems.length - 1 ? '' : 'mr-9'} text-white/75 group hover:text-white duration-200`}>
+            return <Link href={'#'} key={`${item}-${index}`}>
+              <li className={`relative ${index === navItems.length - 1 ? '' : 'mr-9'} text-white/75 group hover:text-white duration-200`}>
                 <span className='absolute inline-block left-0 bottom-0 h-0.5 w-0 bg-white duration-200 group-hover:w-full transition-[width] ease-linear'/>
                 {item}
               </li>
