@@ -7,8 +7,8 @@ export const DropFigures = () => {
   const constraintsRef = useRef(null);
   return (
     <motion.div
-      ref={constraintsRef}
-      className="absolute top-0 -left-40 bottom-0 right-0"
+    ref={constraintsRef}
+    className="absolute top-0 -left-40 bottom-0 right-0"
     >
       <motion.div
         drag
