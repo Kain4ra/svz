@@ -1,6 +1,7 @@
 import AnimatedBlock from '@/components/AnimatedBlock'
 import { DropFigures } from '@/components/DropFigures'
 import Process from '@/components/Process'
+import Work from '@/components/Work'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         </section>
       </AnimatedBlock>
       <Process />
+      <Work />
     </main>
   )
 }
