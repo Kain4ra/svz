@@ -5,7 +5,7 @@ import { ArrowInfo, ProcessCircle, ProcessEgg, ProcessSquare, ProcessTriangels }
 import Link from "next/link";
 
 const Process = () => (
-  <section>
+  <section id="process">
     <AnimatedHeading title={["p", "r", "o", "ce", "ss"]} />
     <div className="grid grid-cols-4 mb-16">
       <AnimatedBlock>
