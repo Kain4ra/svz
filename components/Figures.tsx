@@ -154,3 +154,18 @@ export const ArrowInfo = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 )
+
+export const SemiCircle = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={575}
+    height={288}
+    fill="none"
+    {...props}
+  >
+    <path
+      fill="#63EC9A"
+      d="M0 .375c.383 158.571 128.954 287 287.5 287S574.617 158.946 575 .375H445.801c-.382 87.165-71.109 157.708-158.301 157.708S129.581 87.54 129.199.375H0Z"
+    />
+  </svg>
+)

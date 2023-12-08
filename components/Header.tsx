@@ -3,7 +3,7 @@ import React from "react";
 import logo from "@/public/logo.svg";
 import Link from "next/link";
 
-const navItems = ["Process", "Work", "FAQs", "Webflow", "Blog", "Contact"];
+const navItems = ["Process", "Work", "Resources", "Blog", "Contact"];
 
 const Nav = () => {
   return (

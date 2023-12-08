@@ -3,11 +3,11 @@ import React from "react";
 import icon from "@/public/linkedIn.svg";
 import Image from "next/image";
 
-const navItems = ["Home", "Process", "Work", "FAQs", "Webflow", "Privacy"];
+const navItems = ["Home", "Process", "Work", "Resources", "Privacy"];
 
 const Footer = () => {
   return (
-    <footer className="flex items-center w-[1440px] h-[350px] mx-auto pl-72">
+    <footer id="contact" className="flex items-center w-[1440px] h-[350px] mx-auto pl-72">
       <div className="flex justify-between items-start w-full">
         <div className="flex flex-col justify-between items-start">
           <ul className="flex mb-5 text-sm">

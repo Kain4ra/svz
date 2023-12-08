@@ -16,8 +16,8 @@ const AnimatedHeading = ({ title }: { title: string[] }) => {
         transition={{ delay: .8, duration: .3 }}
         viewport={{once: true}}
       >
-        {title.map((item) => {
-          return <span key={item} className="uppercase font-semibold text-xl">{item}</span>;
+        {title.map((item, index) => {
+          return <span key={item+index} className="uppercase font-semibold text-xl">{item}</span>;
         })}
       </motion.h2>
     </motion.div>
